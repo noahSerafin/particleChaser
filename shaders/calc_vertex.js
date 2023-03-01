@@ -7,7 +7,7 @@ const vertexFeedbackShader = `#version 300 es
   uniform vec2 u_mouse;
 
   float PARTICLE_MASS = 1.0;
-  float GRAVITY_CENTER_MASS = 100.0;
+  float GRAVITY_CENTER_MASS = 10.9;
   float DAMPING = 1e-6;
 
   void main() {
